@@ -48,10 +48,14 @@ The estimation process is broken down into four distinct, sequential, and highly
 
 ### 4. Scaling Logic (Final Measurement Calculation)
 
-The final, absolute measurements in centimeters are calculated by applying the user-provided height to the predicted ratios. This is the core **scaling logic** that converts the normalized, relative measurements into real-world values.
+4. Scaling Logic (Final Measurement Calculation)
+
+The final, absolute measurements in centimeters are calculated by applying the predicted height to the predicted ratios. This is the core scaling logic that converts the normalized, relative measurements into real-world values.
+
+
 
 $$
-\text{Final Measurement (cm)} = \text{Predicted Ratio (from ML model)} \times \text{User Height (cm)}
+\text{Final Measurement (cm)} = \text{Predicted Ratio (from ML model)} \times \text{Predicted Height (cm)}
 $$
 
 ---
@@ -85,8 +89,7 @@ The $85\%$ target is justified by the following:
 *   The **full body** (head to feet) is visible in the standing image for height normalization.
 *   The person is wearing **minimal or tight-fitting clothing** to prevent landmark occlusion.
 *   All three images belong to the **same person** and are taken at roughly the same distance/perspective.
-*   The user-provided **Height** is accurate.
-
+*   The model accurately predicts the Height to serve as the scaling reference
 ### Limitations
 
 *   **2D Constraint:** The system cannot account for body depth or curvature, leading to approximations (e.g., shoulder width is measured as a straight line across the body).
