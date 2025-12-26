@@ -98,8 +98,8 @@ The $85\%$ target is justified by the following:
 | **Computer Vision** | Python, MediaPipe, OpenCV | Pose landmark detection and image processing. |
 | **Machine Learning** | Scikit-learn (Random Forest) | Regression model for robust ratio prediction. |
 | **Backend API** | FastAPI | High-performance, modern API for serving the model (deployed on Hugging Face). |
-| **Web Framework** | Flask | Simple web application for local testing and demonstration. |
-| **Frontend Demo** | React, Vite, Tailwind CSS | Professional, responsive web application for the final demo. |
+| **Web Framework** | swaggerURL | Simple web application for local testing and demonstration. |
+| **Frontend Demo** | React, Vite, Tailwind CSS(Loveable) | Professional, responsive web application for the final demo. |
 
 ## 🚀 Setup and Run Instructions
 
