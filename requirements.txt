@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+numpy==1.26.4
+joblib
+scikit-learn
+opencv-python-headless
+pillow
+python-multipart
+
+# IMPORTANT: lock mediapipe version
+mediapipe==0.10.9
