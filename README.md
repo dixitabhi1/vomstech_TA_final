@@ -103,7 +103,7 @@ The $85\%$ target is justified by the following:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category | Technology | Purpose |
 | :--- | :--- | :--- |
