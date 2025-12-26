@@ -59,7 +59,7 @@ The project aims for a **reasonable accuracy** (target $\sim 85\%$) with a stron
 
 | Metric | Value | Context |
 | :--- | :--- | :--- |
-| **Model R² Score** | $\sim 0.87$ | Achieved on synthetic validation data during model training. |
+| **Model R² Score** | $\sim 0.65$ | Achieved on synthetic validation data during model training. |
 | **Expected Real-World Deviation** | $\pm 1-3 \text{ cm}$ | Aligns with industry standards for virtual fitting and sizing systems. |
 
 ### Justification for Accuracy
@@ -147,15 +147,15 @@ The API documentation (Swagger UI) will be available at `http://127.0.0.1:8000/d
 
 ```
 vomstech_TA_final/
-├── app.py                      # Flask web application for local demo
+├── app.py                      # FastAPI application for the API endpoint
 ├── feature_extraction.py       # Logic for calculating pixel distances and ratios
 ├── pose_utils.py               # Helper functions for MediaPipe Pose
-├── predict_measurements.py     # FastAPI application for the API endpoint
+├── predict_measurements.py     # Ratio prediction
 ├── measurement_model.pkl       # Trained Random Forest Regressor model
 ├── dataset.csv                 # Synthetic training data (anthropometric ratios)
 ├── requirements.txt            # Python dependencies
 ├── trained_model.ipynb         # Jupyter notebook detailing model training
-├── templates/                  # HTML templates for Flask app
+├── templates/                  # HTML templates 
 │   └── index.html
 └── static/                     # Static assets (CSS, JS, images)
 ```
