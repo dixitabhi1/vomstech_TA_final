@@ -164,6 +164,7 @@ vomstech_TA_final/
 
 *   **Working Web-Based Frontend Demo:** [https://body-scan-measure.vercel.app/](https://body-scan-measure.vercel.app/)
 *   **Swagger API Documentation:** [https://abhishek785-ai-body-measurement.hf.space/docs](https://abhishek785-ai-body-measurement.hf.space/docs)
+*   **Planning and execution:(using Notion)**[https://www.notion.so/AI-Body-Measurement-Project-Retrospective-Final-Submission-2d5f3b5325a48102b04dcc8d18668932](https://www.notion.so/AI-Body-Measurement-Project-Retrospective-Final-Submission-2d5f3b5325a48102b04dcc8d18668932)
 
 ## 📄 License
 
