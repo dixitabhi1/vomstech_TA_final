@@ -7,6 +7,11 @@ This project presents a complete, end-to-end solution for estimating approximate
 The core of the solution is a hybrid approach combining state-of-the-art computer vision for pose estimation with a machine learning regression model for robust measurement prediction.
 
 ---
+## 🔗 Live Demo and API
+
+*   **Working Web-Based Frontend Demo:** [https://body-scan-measure.vercel.app/](https://body-scan-measure.vercel.app/)
+*   **Swagger API Documentation:** [https://abhishek785-ai-body-measurement.hf.space/docs](https://abhishek785-ai-body-measurement.hf.space/docs)
+*   **Planning and execution:(using Notion)**[https://www.notion.so/AI-Body-Measurement-Project-Retrospective-Final-Submission-2d5f3b5325a48102b04dcc8d18668932](https://www.notion.so/AI-Body-Measurement-Project-Retrospective-Final-Submission-2d5f3b5325a48102b04dcc8d18668932)
 
 ## 🎯 Mandatory Outputs
 
@@ -160,11 +165,6 @@ vomstech_TA_final/
 └── static/                     # Static assets (CSS, JS, images)
 ```
 
-## 🔗 Live Demo and API
-
-*   **Working Web-Based Frontend Demo:** [https://body-scan-measure.vercel.app/](https://body-scan-measure.vercel.app/)
-*   **Swagger API Documentation:** [https://abhishek785-ai-body-measurement.hf.space/docs](https://abhishek785-ai-body-measurement.hf.space/docs)
-*   **Planning and execution:(using Notion)**[https://www.notion.so/AI-Body-Measurement-Project-Retrospective-Final-Submission-2d5f3b5325a48102b04dcc8d18668932](https://www.notion.so/AI-Body-Measurement-Project-Retrospective-Final-Submission-2d5f3b5325a48102b04dcc8d18668932)
 
 ## 📄 License
 
