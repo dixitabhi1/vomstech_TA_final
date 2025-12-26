@@ -1,13 +1,13 @@
-# 📏 AI-Based Full Body Measurement Estimation (Approximate)
+# AI-Based Full Body Measurement Estimation (Approximate)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project presents a complete, end-to-end solution for estimating approximate human body measurements from a set of three standard pose images (front, side, and standing full-body). Developed for the Voms Tech Machine Round, this system demonstrates a robust, explainable, and deployable AI/ML pipeline that meets all mandatory output and submission requirements.
 
 The core of the solution is a hybrid approach combining state-of-the-art computer vision for pose estimation with a machine learning regression model for robust measurement prediction.
 
 ---
-## 🔗 Live Demo and API
+## Live Demo and API
 
 *   **Working Web-Based Frontend Demo:** [https://body-scan-measure.vercel.app/](https://body-scan-measure.vercel.app/) or [https://vomstechfinal.vercel.app/](https://vomstechfinal.vercel.app/)
 *   **Web Frontend Repository:**[https://github.com/dixitabhi1/body-scan-measure](https://github.com/dixitabhi1/body-scan-measure)
@@ -17,7 +17,7 @@ The core of the solution is a hybrid approach combining state-of-the-art compute
 
 
 
-## 🎯 Mandatory Outputs
+##  Mandatory Outputs
 
 The system successfully estimates the following mandatory body measurements:
 
@@ -29,7 +29,7 @@ The system successfully estimates the following mandatory body measurements:
 | **Arm Length** | cm | Derived from side-view shoulder-to-wrist distance. |
 | **Leg / Inseam Length** | cm | Derived from standing-view hip-to-ankle distance. |
 
-## 🧠 Technical Approach
+##  Technical Approach
 
 The estimation process is broken down into four distinct, sequential, and highly explainable steps:
 
@@ -64,7 +64,7 @@ $$
 
 ---
 
-## 📊 Accuracy and Justification
+##  Accuracy and Justification
 
 ### Target Accuracy: ~85%
 
@@ -85,7 +85,7 @@ The $85\%$ target is justified by the following:
 
 ---
 
-## ⚠️ Assumptions & Limitations
+##  Assumptions & Limitations
 
 ### Assumptions
 
@@ -113,7 +113,7 @@ The $85\%$ target is justified by the following:
 | **Web Framework** | swaggerURL | Simple web application for local testing and demonstration. |
 | **Frontend Demo** | React, Vite, Tailwind CSS(Loveable) | Professional, responsive web application for the final demo. |
 
-## 🚀 Setup and Run Instructions
+##  Setup and Run Instructions
 
 ### Prerequisites
 
@@ -155,7 +155,7 @@ The API documentation (Swagger UI) will be available at `http://127.0.0.1:8000/d
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 vomstech_TA_final/
